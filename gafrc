@@ -1,2 +1,14 @@
+;; forget all symbols libraries
+(reset-component-library)
+
+;; Reload the gschem stock symbols
+(load-scheme-dir geda-confd-path)
+
+;; Add the locally defined symbols
 (component-library "./sym")
 
+;; Include Kai-Martin Knaak's symbols
+;; See http://www.gedasymbols.org/user/kaimartin_knaak/
+;;
+(define knaak (build-path (getenv "HOME") "gaf" "libraries" "knaak" "symbols"))
+(component-library-search knaak "knaak")
