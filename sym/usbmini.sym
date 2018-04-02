@@ -1,0 +1,78 @@
+v 20140308 2
+T 100 100 0 1 0 0 0 0 1
+gedasymbols::url=http://www.gedasymbols.org/user/sean_depagnier/symbols/usbmini.sym
+T 600 2000 8 10 1 1 0 0 1
+refdes=CONN?
+T 0 2000 9 10 1 1 0 0 1
+device=USB
+T 100 2850 8 10 0 0 0 0 1
+footprint=usbminib
+B 0 400 800 1500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1200 800 800 800 1 0 0
+{
+T 996 826 5 10 1 1 0 0 1
+pinnumber=4
+T 735 815 5 10 1 1 0 7 1
+pinlabel=ID
+T 1190 876 5 10 0 1 0 6 1
+pinseq=4
+T 1500 950 5 10 0 1 0 6 1
+pintype=pas
+}
+P 1200 1100 800 1100 1 0 0
+{
+T 1000 1130 5 10 1 1 0 0 1
+pinnumber=3
+T 783 1101 5 10 1 1 0 7 1
+pinlabel=D+
+T 1200 1150 5 10 0 1 0 6 1
+pinseq=3
+T 1500 1250 5 10 0 1 0 6 1
+pintype=pas
+}
+P 1200 1400 800 1400 1 0 0
+{
+T 1004 1443 5 10 1 1 0 0 1
+pinnumber=2
+T 1100 1450 5 10 0 1 0 6 1
+pinseq=2
+T 1500 1550 5 10 0 1 0 6 1
+pintype=pas
+}
+P 1200 1700 800 1700 1 0 0
+{
+T 1000 1710 5 10 1 1 0 0 1
+pinnumber=1
+T 791 1700 5 10 1 1 0 7 1
+pinlabel=VCC
+T 1200 1750 5 10 0 1 0 6 1
+pinseq=1
+T 1500 1850 5 10 0 1 0 6 1
+pintype=pwr
+}
+T 100 3050 8 10 0 0 0 0 1
+author=Sean D'Epagnier
+P 1200 500 800 500 1 0 0
+{
+T 1000 531 5 10 1 1 0 0 1
+pinnumber=5
+T 782 506 5 10 1 1 0 7 1
+pinlabel=GND
+T 1200 578 5 10 0 1 0 6 1
+pinseq=5
+T 1500 650 5 10 0 1 0 6 1
+pintype=pwr
+}
+P 600 100 600 400 1 0 0
+{
+T 800 310 5 10 0 1 180 0 1
+pinnumber=6
+T 584 316 5 8 1 1 0 7 1
+pinlabel=shell
+T 950 100 5 10 0 1 90 0 1
+pintype=pas
+T 550 100 5 10 0 1 90 0 1
+pinseq=6
+}
+T 735 1420 5 10 1 1 0 7 1
+pinlabel=D-

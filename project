@@ -1,0 +1,6 @@
+schematics stm32_dev_board.sch
+output-name stm32_dev_board
+elements-dir ~/gaf/libraries/patthoyts/footprints
+elements-dir ~/gaf/libraries/knaak/footprints
+elements-dir ~/gaf/libraries/luciani.org
+
